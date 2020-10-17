@@ -1,13 +1,14 @@
+/* Resets the box size of every element */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* set background color */
 body {
     background-color: #d9dcd6;
 }
-
+/* Set header element When inside <body> it’s the website masthead.*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,6 +25,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Added Style to <nav> Defines a group a navigation links.*/
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -45,11 +47,11 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* set fontsize for paragraph*/
 p {
     font-size: 16px;
 }
-
+/* added style to element <figure> Embeds annotated images, illustrations, photos, code, etc*/
 figure {
     height: 800px;
     width: 100%;
@@ -68,13 +70,13 @@ figure {
     float: right;
     margin-left: 25px;
 }
-
+/* Reset div and style for element <section> A group in a series of related content pieces.*/
 section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* Reset div and style for element <aside> Secondary content not required to understand the main content.*/
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -101,7 +103,7 @@ aside {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* added style for <article> element specifies independent, self-contained content*/
 .section-article {
     margin-bottom: 20px;
     padding: 50px;
@@ -119,7 +121,7 @@ aside {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* Styled element <footer> When inside <body> it’s the website footer.*/
 footer {
     padding: 30px;
     clear: both;
